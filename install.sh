@@ -29,7 +29,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/anbud/DroidDucky/m
 
 ##Make all nessisary files executeable
 cd /home/pi
-chmod 755 hid-gadget-test.c duckpi.sh usleep.c g_hid.ko usleep hid-gadget-test
+chmod 755 hid-gadget-test.c droidducky.sh usleep.c g_hid.ko usleep hid-gadget-test
 #\cp???
 \cp g_hid.ko /lib/modules/4.4.0+/kernel/drivers/usb/gadget/legacy
 
