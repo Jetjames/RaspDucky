@@ -19,7 +19,7 @@ BRANCH=next rpi-update c053625
 sed -i -e "\$adtoverlay=dwc2" /boot/config.txt
 
 ##Install git and download rspiducky
-wget --no-check-certificate https://raw.githubusercontent.com/anbud/DroidDucky/master/droidducky.sh https://raw.githubusercontent.com/theresalu/rspiducky/master/usleep.c https://raw.githubusercontent.com/theresalu/rspiducky/master/hid-gadget-test.c https://github.com/theresalu/rspiducky/raw/master/hid-gadget-test https://github.com/theresalu/rspiducky/raw/master/usleep https://github.com/theresalu/rspiducky/raw/master/g_hid.ko
+wget --no-check-certificate https://raw.githubusercontent.com/Jetjames/RaspDucky/master/droidducky.sh https://raw.githubusercontent.com/theresalu/rspiducky/master/usleep.c https://raw.githubusercontent.com/theresalu/rspiducky/master/hid-gadget-test.c https://github.com/theresalu/rspiducky/raw/master/hid-gadget-test https://github.com/theresalu/rspiducky/raw/master/usleep https://github.com/theresalu/rspiducky/raw/master/g_hid.ko
 
 ##Compile hid-gadget-test
 ##gcc hid-gadget-test.c -o hid-gadget-test
